@@ -1,0 +1,300 @@
+[
+  {
+    "id": "anom-live-6ac",
+    "alert_id": "live-6ac23c28",
+    "timestamp": "04 Oct 2026 17:14:40",
+    "source_ip": "192.168.1.20",
+    "destination_ip": "192.168.1.10",
+    "threat_context": "Live Attack Simulation: ICMP",
+    "anomaly_type": "Packet frequency spike (potential DoS/burst)",
+    "confidence_score": "100%",
+    "severity": "Critical",
+    "details": [
+      "Packet frequency spike (potential DoS/burst)",
+      "Repeated failed authentication attempts (potential brute-force)"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 120.0,
+      "failed_auth_count": 6,
+      "payload_bytes": 512,
+      "unique_dest_ports": 1,
+      "dns_entropy": 2.5
+    }
+  },
+  {
+    "id": "anom-live-6ac",
+    "alert_id": "live-6ac23c27",
+    "timestamp": "04 Oct 2026 17:14:39",
+    "source_ip": "192.168.1.20",
+    "destination_ip": "192.168.1.10",
+    "threat_context": "Live Attack Simulation: DNS",
+    "anomaly_type": "Repeated failed authentication attempts (potential brute-force)",
+    "confidence_score": "100%",
+    "severity": "Critical",
+    "details": [
+      "Repeated failed authentication attempts (potential brute-force)",
+      "High entropy DNS query payload (potential C2 tunneling)"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 15.0,
+      "failed_auth_count": 6,
+      "payload_bytes": 512,
+      "unique_dest_ports": 1,
+      "dns_entropy": 4.8
+    }
+  },
+  {
+    "id": "anom-live-6ac",
+    "alert_id": "live-6ac23c26",
+    "timestamp": "04 Oct 2026 17:14:38",
+    "source_ip": "192.168.1.20",
+    "destination_ip": "192.168.1.10",
+    "threat_context": "Live Attack Simulation: SSH",
+    "anomaly_type": "Repeated failed authentication attempts (potential brute-force)",
+    "confidence_score": "98%",
+    "severity": "Critical",
+    "details": [
+      "Repeated failed authentication attempts (potential brute-force)"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 15.0,
+      "failed_auth_count": 6,
+      "payload_bytes": 512,
+      "unique_dest_ports": 1,
+      "dns_entropy": 2.5
+    }
+  },
+  {
+    "id": "anom-live-6ac",
+    "alert_id": "live-6ac23c22",
+    "timestamp": "04 Oct 2026 17:14:34",
+    "source_ip": "192.168.1.20",
+    "destination_ip": "192.168.1.10",
+    "threat_context": "Live Attack Simulation: NMAP",
+    "anomaly_type": "Horizontal/Vertical port sweep pattern",
+    "confidence_score": "92%",
+    "severity": "Critical",
+    "details": [
+      "Horizontal/Vertical port sweep pattern"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 15.0,
+      "failed_auth_count": 0,
+      "payload_bytes": 512,
+      "unique_dest_ports": 24,
+      "dns_entropy": 2.5
+    }
+  },
+  {
+    "id": "anom-live-6ac",
+    "alert_id": "live-6ac23afb",
+    "timestamp": "04 Oct 2026 17:09:39",
+    "source_ip": "192.168.1.20",
+    "destination_ip": "192.168.1.10",
+    "threat_context": "Live Attack Simulation: ICMP",
+    "anomaly_type": "Packet frequency spike (potential DoS/burst)",
+    "confidence_score": "100%",
+    "severity": "Critical",
+    "details": [
+      "Packet frequency spike (potential DoS/burst)",
+      "Repeated failed authentication attempts (potential brute-force)"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 120.0,
+      "failed_auth_count": 6,
+      "payload_bytes": 512,
+      "unique_dest_ports": 1,
+      "dns_entropy": 2.5
+    }
+  },
+  {
+    "id": "anom-live-6ac",
+    "alert_id": "live-6ac23afa",
+    "timestamp": "04 Oct 2026 17:09:38",
+    "source_ip": "192.168.1.20",
+    "destination_ip": "192.168.1.10",
+    "threat_context": "Live Attack Simulation: DNS",
+    "anomaly_type": "Repeated failed authentication attempts (potential brute-force)",
+    "confidence_score": "100%",
+    "severity": "Critical",
+    "details": [
+      "Repeated failed authentication attempts (potential brute-force)",
+      "High entropy DNS query payload (potential C2 tunneling)"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 15.0,
+      "failed_auth_count": 6,
+      "payload_bytes": 512,
+      "unique_dest_ports": 1,
+      "dns_entropy": 4.8
+    }
+  },
+  {
+    "id": "anom-live-6ac",
+    "alert_id": "live-6ac23afa",
+    "timestamp": "04 Oct 2026 17:09:38",
+    "source_ip": "192.168.1.20",
+    "destination_ip": "192.168.1.10",
+    "threat_context": "Live Attack Simulation: SSH",
+    "anomaly_type": "Repeated failed authentication attempts (potential brute-force)",
+    "confidence_score": "98%",
+    "severity": "Critical",
+    "details": [
+      "Repeated failed authentication attempts (potential brute-force)"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 15.0,
+      "failed_auth_count": 6,
+      "payload_bytes": 512,
+      "unique_dest_ports": 1,
+      "dns_entropy": 2.5
+    }
+  },
+  {
+    "id": "anom-live-6ac",
+    "alert_id": "live-6ac23af5",
+    "timestamp": "04 Oct 2026 17:09:33",
+    "source_ip": "192.168.1.20",
+    "destination_ip": "192.168.1.10",
+    "threat_context": "Live Attack Simulation: NMAP",
+    "anomaly_type": "Horizontal/Vertical port sweep pattern",
+    "confidence_score": "92%",
+    "severity": "Critical",
+    "details": [
+      "Horizontal/Vertical port sweep pattern"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 15.0,
+      "failed_auth_count": 0,
+      "payload_bytes": 512,
+      "unique_dest_ports": 24,
+      "dns_entropy": 2.5
+    }
+  },
+  {
+    "id": "anom-66a8f3b9",
+    "alert_id": "66a8f3b9e7a2f",
+    "timestamp": "6 Aug 2025 10:37:42",
+    "source_ip": "192.168.1.20",
+    "destination_ip": "192.168.1.10",
+    "threat_context": "Port Scan Detected",
+    "anomaly_type": "Horizontal/Vertical port sweep pattern",
+    "confidence_score": "92%",
+    "severity": "Critical",
+    "details": [
+      "Horizontal/Vertical port sweep pattern"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 15.0,
+      "failed_auth_count": 0,
+      "payload_bytes": 512,
+      "unique_dest_ports": 24,
+      "dns_entropy": 2.5
+    }
+  },
+  {
+    "id": "anom-66a8f3b9",
+    "alert_id": "66a8f3b9e7a3a",
+    "timestamp": "6 Aug 2025 10:31:09",
+    "source_ip": "8.8.8.8",
+    "destination_ip": "192.168.1.10",
+    "threat_context": "DNS Tunneling Detected",
+    "anomaly_type": "High entropy DNS query payload (potential C2 tunneling)",
+    "confidence_score": "90%",
+    "severity": "Critical",
+    "details": [
+      "High entropy DNS query payload (potential C2 tunneling)"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 15.0,
+      "failed_auth_count": 0,
+      "payload_bytes": 512,
+      "unique_dest_ports": 1,
+      "dns_entropy": 4.8
+    }
+  },
+  {
+    "id": "anom-66a8f3b9",
+    "alert_id": "66a8f3b9e7a4b",
+    "timestamp": "6 Aug 2025 10:22:11",
+    "source_ip": "203.0.113.45",
+    "destination_ip": "192.168.1.15",
+    "threat_context": "Brute Force Attempt",
+    "anomaly_type": "Repeated failed authentication attempts (potential brute-force)",
+    "confidence_score": "98%",
+    "severity": "Critical",
+    "details": [
+      "Repeated failed authentication attempts (potential brute-force)"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 15.0,
+      "failed_auth_count": 6,
+      "payload_bytes": 512,
+      "unique_dest_ports": 1,
+      "dns_entropy": 2.5
+    }
+  },
+  {
+    "id": "anom-66a8f3b9",
+    "alert_id": "66a8f3b9e7a5c",
+    "timestamp": "6 Aug 2025 10:15:33",
+    "source_ip": "172.16.0.2",
+    "destination_ip": "192.168.1.10",
+    "threat_context": "ICMP Flood",
+    "anomaly_type": "Packet frequency spike (potential DoS/burst)",
+    "confidence_score": "92%",
+    "severity": "Critical",
+    "details": [
+      "Packet frequency spike (potential DoS/burst)"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 120.0,
+      "failed_auth_count": 0,
+      "payload_bytes": 512,
+      "unique_dest_ports": 1,
+      "dns_entropy": 2.5
+    }
+  },
+  {
+    "id": "anom-66a8f3b9",
+    "alert_id": "66a8f3b9e7a7e",
+    "timestamp": "6 Aug 2025 09:30:22",
+    "source_ip": "185.220.101.5",
+    "destination_ip": "192.168.1.20",
+    "threat_context": "Scanning",
+    "anomaly_type": "Horizontal/Vertical port sweep pattern",
+    "confidence_score": "92%",
+    "severity": "Critical",
+    "details": [
+      "Horizontal/Vertical port sweep pattern"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 15.0,
+      "failed_auth_count": 0,
+      "payload_bytes": 512,
+      "unique_dest_ports": 24,
+      "dns_entropy": 2.5
+    }
+  },
+  {
+    "id": "anom-66a8f3b9",
+    "alert_id": "66a8f3b9e7a8f",
+    "timestamp": "6 Aug 2025 09:12:05",
+    "source_ip": "192.168.1.50",
+    "destination_ip": "192.168.1.1",
+    "threat_context": "Brute Force Attempt",
+    "anomaly_type": "Repeated failed authentication attempts (potential brute-force)",
+    "confidence_score": "98%",
+    "severity": "Critical",
+    "details": [
+      "Repeated failed authentication attempts (potential brute-force)"
+    ],
+    "metrics": {
+      "packet_rate_per_sec": 15.0,
+      "failed_auth_count": 6,
+      "payload_bytes": 512,
+      "unique_dest_ports": 1,
+      "dns_entropy": 2.5
+    }
+  }
+]
